@@ -1,0 +1,33 @@
+/* page margins */
+.page {
+  background-color: #F3E9EE;
+  margin: 20px 50px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #58213C;
+}
+
+/* line styles */
+.axis path,
+.axis line { 
+	fill: none;
+	stroke: #333333;
+	shape-rendering: crispEdges;
+}
+
+/* labels */
+.axis text {
+	font-family: sans-serif;
+	font-size: 11px;
+}
+
+.y-label {
+  writing-mode: vertical-lr;
+}
+
+.labels {
+  font-size: 11px;
+  color: black;
+}
